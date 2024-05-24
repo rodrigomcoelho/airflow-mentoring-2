@@ -399,17 +399,17 @@ pandas = ["pandas (>=0.17.1)"]
 
 [[package]]
 name = "apache-airflow-providers-ftp"
-version = "3.5.2"
-description = "Provider for Apache Airflow. Implements apache-airflow-providers-ftp package"
+version = "3.7.0"
+description = "Provider package apache-airflow-providers-ftp for Apache Airflow"
 optional = false
 python-versions = "~=3.8"
 files = [
-    {file = "apache-airflow-providers-ftp-3.5.2.tar.gz", hash = "sha256:f5994d2f43664eb946b0e6f868991ec83efd8d37bf7488345eeeeb0168a23d81"},
-    {file = "apache_airflow_providers_ftp-3.5.2-py3-none-any.whl", hash = "sha256:a3960872de03467c289b925172f48dec45d028c992093cc3a6c45816e0e43536"},
+    {file = "apache_airflow_providers_ftp-3.7.0-py3-none-any.whl", hash = "sha256:817936fa2f9f5d7f00f50bfe0dfdf83a3ffbcd863cb92b862a2ab5a40da1b8c4"},
+    {file = "apache_airflow_providers_ftp-3.7.0.tar.gz", hash = "sha256:cc6e7602fb9b92255b83343673923339c8fe7d22c8c738ba372ce38a70cce1cc"},
 ]
 
 [package.dependencies]
-apache-airflow = ">=2.4.0"
+apache-airflow = ">=2.6.0"
 
 [package.extras]
 openlineage = ["apache-airflow-providers-openlineage"]
